@@ -8,19 +8,35 @@
     <script src="index.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css"> 
-    <link rel="stylesheet" href="fontawesome-free-5.15.1/css/all.css">
-    <title>Search</title>
-  <script src="https://kit.fontawesome.com/afd6aa68df.js" crossorigin="anonymous"></script>
+    <title>Covid19 Tracker</title>
 </head>
 <body>
-<h1>Covid tracker</h1>
+<h1>Covid19 <span style="color:#707070;">Tracker</span></h1>
 <div class="box">
     <form name="search">
         <input type="text" id="txtCountry" class="input" name="txt" 
         onmouseout="document.search.txt.value = ''">
-    </form>
-        <i class="fas fa-search"></i>
-</div> 
+    </form> 
+</div>
+<h2 id="country">Global</h2> 
+<div class="row">
+    <div class="col">
+        <h2>Confirmed</h2>
+        <h4 id="confirmed">3423442</h4>
+    </div>
+    <div class="col">
+        <h2>Active</h2>
+        <h4 id="active">234213</h4>
+    </div>
+    <div class="col">
+        <h2>Recovered</h2>
+        <h4 id="recovered">2123323</h4>
+    </div>
+    <div class="col">
+        <h2>Deaths</h2>
+        <h4 id="deaths">214124</h4>
+    </div>
+</div>
 
 </body>
 </html>
