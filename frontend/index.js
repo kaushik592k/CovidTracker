@@ -17,4 +17,17 @@ $(document).ready(function () {
             console.log(request);
         }  
     });  
+    
+    $.ajax({
+        url: 'http://localhost:8080/global',
+        dataType: 'json',
+        success: function(data) {
+            console.log(data);
+        }
+    });
+
+    
 });
+
+
+       
