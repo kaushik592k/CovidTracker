@@ -14,6 +14,7 @@ public class AutoSuggestionServiceImpl implements AutoSuggestionService {
 
     TrieNode root;
     Utility util = new Utility();
+    Map<String, String> mapper = new HashMap<>();
     public AutoSuggestionServiceImpl() throws IOException {
 
         List<String> countryNames = new ArrayList<>();
@@ -31,12 +32,14 @@ public class AutoSuggestionServiceImpl implements AutoSuggestionService {
             if(row[0].equals("Province/State")) continue;
 
             String t = row[1].toLowerCase(Locale.ROOT);
+
             String name = "";
             for (char str: t.toCharArray()) {
                 if (str >= 'a' && str <= 'z')
                     name += str;
             }
             countryNames.add(name);
+            mapper.put(name, row[1]);
         }
         this.root = build(countryNames);
     }
@@ -75,7 +78,11 @@ public class AutoSuggestionServiceImpl implements AutoSuggestionService {
         {
             return null;
         }
-        Set<String> str = getString(crawl, prefix);
+        Set<String> str1 = getString(crawl, prefix);
+        Set<String> str = new TreeSet<>();
+        for (String ss: str1) {
+            str.add(mapper.get(ss));
+        }
         return str;
     }
 
