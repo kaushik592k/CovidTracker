@@ -52,6 +52,7 @@ public class TrackerServiceImpl implements TrackerService {
 
         for (String[] row : allData) {
             if(row[0].equals("Province/State")) continue;
+            if(!row[row.length-1].equals(""))
             confirmed += Integer.parseInt(row[row.length - 1]);
         }
 
@@ -68,6 +69,7 @@ public class TrackerServiceImpl implements TrackerService {
 
         for (String[] row : allData) {
             if(row[0].equals("Province/State")) continue;
+            if(!row[row.length-1].equals(""))
             deaths += Integer.parseInt(row[row.length - 1]);
         }
 
@@ -83,6 +85,7 @@ public class TrackerServiceImpl implements TrackerService {
 
         for (String[] row : allData) {
             if(row[0].equals("Province/State")) continue;
+            if(!row[row.length-1].equals(""))
             recovered += Integer.parseInt(row[row.length - 1]);
         }
 
@@ -109,14 +112,16 @@ public class TrackerServiceImpl implements TrackerService {
                 .build();
 
         List<String[]>allData = csvReader.readAll();
-        int recovered = 0;
+
 
         for (String[] row : allData) {
             if(row[0].equals("Province/State")) continue;
+            if(!row[row.length-1].equals(""))
             recovered += Integer.parseInt(row[row.length - 1]);
         }
         for(String[] row : allData){
             if(row[0].equals(countryName)){
+                if(!row[row.length-1].equals(""))
                 recovered += Integer.parseInt(row[row.length - 1]);
             }
 
@@ -131,6 +136,7 @@ public class TrackerServiceImpl implements TrackerService {
         allData = csvReader.readAll();
         for(String[] row : allData){
             if(row[0].equals(countryName)){
+                if(!row[row.length-1].equals(""))
                 confirmed += Integer.parseInt(row[row.length - 1]);
             }
 
@@ -145,6 +151,7 @@ public class TrackerServiceImpl implements TrackerService {
 
         for(String[] row : allData){
             if(row[0].equals(countryName)){
+                if(!row[row.length-1].equals(""))
                 deaths += Integer.parseInt(row[row.length - 1]);
             }
 
