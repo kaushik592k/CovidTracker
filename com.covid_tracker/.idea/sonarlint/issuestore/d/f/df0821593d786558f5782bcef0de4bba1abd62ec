@@ -1,0 +1,31 @@
+
+]
+java:S3973G"GUse indentation to denote the code conditionally executed by this "if".(ŒÚõ†
+7
+java:S1643%"Use a StringBuilder instead.(…Ó…Áşÿÿÿÿ
+q
+java:S1488N"[Immediately return this expression instead of assigning it to the temporary variable "str".(¦õ®
+E
+java:S6212"/Declare this local variable with "var" instead.(¼ß¯º
+E
+java:S6212"/Declare this local variable with "var" instead.(Å÷
+E
+java:S6212"/Declare this local variable with "var" instead.(‰Á°î
+E
+java:S6212""/Declare this local variable with "var" instead.(¹·ş¸
+J
+java:S6212-"/Declare this local variable with "var" instead.(¿ûó„üÿÿÿÿ
+S
+java:S1117-"8Rename "root" which hides the field declared at line 15.(¿ûó„üÿÿÿÿ
+E
+java:S62122"/Declare this local variable with "var" instead.(‡“õê
+E
+java:S6212E"/Declare this local variable with "var" instead.(‡“õê
+A
+java:S1168L"+Return an empty collection instead of null.(¥¹ï
+T
+java:S1854^"?Remove this useless assignment to local variable "childString".(æüÇp
+E
+java:S6212Y"/Declare this local variable with "var" instead.(ş§³Ì
+D
+java:S1481".Remove this unused "confirmed" local variable.(‰Á°î

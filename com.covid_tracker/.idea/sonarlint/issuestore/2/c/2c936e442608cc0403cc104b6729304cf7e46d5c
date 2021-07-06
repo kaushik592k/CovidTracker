@@ -1,0 +1,80 @@
+
+b
+java:S39737"GUse indentation to denote the code conditionally executed by this "if".(¿ÉÈöşÿÿÿÿ
+i
+java:S3973H"GUse indentation to denote the code conditionally executed by this "if".(¿ÉÈöşÿÿÿÿ8è×‡É¦/
+i
+java:S3973X"GUse indentation to denote the code conditionally executed by this "if".(¿ÉÈöşÿÿÿÿ8Á‡ˆÉ¦/
+i
+java:S3973w"GUse indentation to denote the code conditionally executed by this "if".(¿ÉÈöşÿÿÿÿ8Ù¶ˆÉ¦/
+i
+java:S3973|"GUse indentation to denote the code conditionally executed by this "if".(¿ÉÈöşÿÿÿÿ8éˆÉ¦/
+j
+java:S3973‹"GUse indentation to denote the code conditionally executed by this "if".(¿ÉÈöşÿÿÿÿ8Œß‰É¦/
+j
+java:S3973š"GUse indentation to denote the code conditionally executed by this "if".(¿ÉÈöşÿÿÿÿ8ß‰É¦/
+j
+java:S11926"ODefine a constant instead of duplicating this literal "Province/State" 4 times.(¼°’ïúÿÿÿÿ
+J
+java:S1066|"/Merge this if statement with the enclosing one.(¿ÉÈöşÿÿÿÿ
+R
+java:S1066‹"/Merge this if statement with the enclosing one.(¿ÉÈöşÿÿÿÿ8–ß‰É¦/
+R
+java:S1066š"/Merge this if statement with the enclosing one.(¿ÉÈöşÿÿÿÿ8—ß‰É¦/
+M
+java:S1128"7Remove this unused import 'java.net.HttpURLConnection'.(¬¬˜­
+b
+java:S1128
+"LRemove this unused import 'org.apache.http.impl.client.CloseableHttpClient'.(´—Óµ
+Q
+java:S1128";Remove this unused import 'java.net.MalformedURLException'.(ªËŞˆ
+D
+java:S1128")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ
+M
+java:S1128"7Remove this unused import 'org.apache.http.HttpEntity'.(©À¥ë
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+Y
+java:S1128	"CRemove this unused import 'org.apache.http.client.methods.HttpGet'.(‡Ê’Ú
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+T
+java:S1128"9Remove this unused import 'org.apache.http.HttpResponse'.(«°üİÿÿÿÿÿ
+e
+java:S1128"JRemove this unused import 'org.apache.http.impl.client.HttpClientBuilder'.(İØÒıÿÿÿÿ
+J
+java:S6212$"/Declare this local variable with "var" instead.(öœ–ºùÿÿÿÿ
+E
+java:S6212%"/Declare this local variable with "var" instead.(ÛÑ©›
+J
+java:S6212&"/Declare this local variable with "var" instead.(Ç–²Úûÿÿÿÿ
+E
+java:S6212,"/Declare this local variable with "var" instead.(çßí±
+E
+java:S6212."/Declare this local variable with "var" instead.(Å÷
+E
+java:S62123"/Declare this local variable with "var" instead.(‰Á°î
+J
+java:S6212D"/Declare this local variable with "var" instead.(ºÊ ‡ÿÿÿÿÿ
+E
+java:S6212T"/Declare this local variable with "var" instead.(¸”ä·
+t
+java:S3776`"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ÅÈŞêùÿÿÿÿ8ÚéˆÉ¦/
+=
+java:S1659b"'Declare "confirmed" on a separate line.(—èŞõ
+:
+java:S1659b"$Declare "deaths" on a separate line.(—èŞõ
+:
+java:S1659b"$Declare "active" on a separate line.(—èŞõ
+J
+java:S6212d"/Declare this local variable with "var" instead.(Ç–²Úûÿÿÿÿ
+J
+java:S6212e"/Declare this local variable with "var" instead.(öœ–ºùÿÿÿÿ
+E
+java:S6212f"/Declare this local variable with "var" instead.(ÛÑ©›
+J
+java:S6212l"/Declare this local variable with "var" instead.(ªùåéıÿÿÿÿ
+E
+java:S6212n"/Declare this local variable with "var" instead.(Å÷
